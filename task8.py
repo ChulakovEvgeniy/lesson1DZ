@@ -9,7 +9,7 @@ rows = int(input('Введите количество полосок шокол�
 columns = int(input('Введите кол-во столбиков шоколада: '))
 need = int(input('Введите кол-во ячеек шоколада, которые вы хотите отломить:'))
 
-if need % rows == 0 or need % columns == 0:
+if need % rows == 0 and need <= rows * columns or need % columns == 0 and need <= rows * columns:
     print('Можно')
 else:
     print('Нельзя')
