@@ -8,7 +8,7 @@
 # 60 -> 10 40 10
 
 count = int(input('Введите общее кол-во журавликов: '))
-count_Kate = count//3*2
-count_Petr = count//3//2
+count_Kate = count // 3 * 2
+count_Petr = count // 3 // 2
 count_Sergyi = count_Petr
 print(f"Катя сделала: {count_Kate}, Петя: {count_Petr}, Сережа: {count_Sergyi} ")
